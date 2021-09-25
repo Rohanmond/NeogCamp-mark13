@@ -165,6 +165,7 @@ function clickHandler(){
             }
         }
     }
+    else message="Pls enter the date!";
     outputEl.innerText=message;
 }
 showButton.addEventListener("click",clickHandler);
